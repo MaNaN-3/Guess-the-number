@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the number</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Guess The Number!!</h1>
+    </header>
+    <section class="rulebox">
+      <h2 class="rules">Rules of the game</h2>
+      <ul class="rulelist">
+        <li>Guess a number between 1 and 20.</li>
+        <li>Try to guess the correct number with the help of given hint.</li>
+        <li>The score kept decreasing on every wrong guess.</li>
+        <li>Best of luck!!!</li>
+      </ul>
+    </section>
+    <div class="guess">?</div>
+    <br />
+    <br />
+    <main class="main">
+      <div class="main checker">
+        <p>Guess The number: <input type="number" class="input" /></p>
+        <button class="btn check">Check</button>
+      </div>
+      <div class="main scoreboard">
+        <ul class="info">
+          <li class="hint">Start Guessing!!</li>
+          <br />
+          <li>Score: <span class="score"> 20</span></li>
+          <li>Highscore: <span class="highscore">0</span></li>
+        </ul>
+      </div>
+    </main>
+    <button class="btn again check">Again</button>
+    <script src="script.js"></script>
+  </body>
+</html>
